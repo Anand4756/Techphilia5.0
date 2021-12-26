@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Noto+Serif&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: #F65540;
+
+}
+
+.main-page{
+background: url("assets/bihar.jpg");
+margin-left: 300px;
+width: 1349x;
+height: 700px;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0 20px;
+
+}
+.blob-img{
+	float: right;
+	width: 40%;
+	position: absolute;
+	right: 10%;
+}
+.right-text{
+	padding: 86px 0;
+	font-family: 'Acme', sans-serif;
+	font-size: 60px;
+	width: 500px;
+	position: absolute;	
+	left: 15%;
+  	color: white;
+}
+
+.second-section{
+	padding: 30px 20px;
+	height: 900px;
+	background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+}
+.heading{
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 60px;
+	color: white;
+
+}
+.bygone-div{
+margin: 30px 10px;	
+
+}
+.container {
+                       
+align-items: start;
+display: flex;
+margin-top: 70px;
+ }
+ .container__media{
+ padding-left: 50px;
+ }
+.container__media img{
+width: 500px;
+height: 300px;
+border-radius: 80px;
+border: 12px solid white;
+}
+
+.container__content {
+  margin-left: 7%;
+  font-family: 'Noto Serif', serif;
+
+}
+.container__content h3{
+	font-size: 50px;
+	color: #F65540;
+}
+.container__content p{
+	font-size: 25px;
+	color: wheat;
+}
