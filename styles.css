@@ -13,7 +13,7 @@ body{
 }
 
 .main-page{
-background: url("assets/bihar.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("assets/bodhgya.jpg");
 margin-left: 300px;
 width: 1349x;
 height: 700px;
@@ -41,9 +41,9 @@ padding: 0 20px;
 .second-section{
 	padding: 30px 20px;
 	height: 900px;
-	background: #6441A5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #6441A5;  
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+background: linear-gradient(to right, #2a0845, #6441A5); 
 
 	
 }
@@ -86,4 +86,56 @@ border: 12px solid white;
 .container__content p{
 	font-size: 25px;
 	color: wheat;
+}
+
+@media only screen and (max-width:580px){
+.main-page{
+
+display: block;
+
+}
+.main-page{
+	background-image: none;
+}
+.right-text{
+	width: 30%;
+	padding-left: 0;
+	font-size: 40px;
+}
+.second-section{
+	
+	height: 1500px;
+}
+.heading{
+	font-size: 30px;
+
+}
+.container{
+	flex-direction: column
+}
+.container__media{
+	text-align: center;
+	width: 50%;
+	padding-left: 0px;
+}
+.container__media img{
+width: 190%;
+
+}
+.container__content{
+	 margin-left: 0%;
+	 
+
+}
+.container__content h3{
+	font-size: 30px;
+	
+}
+.container__content p{
+	font-size: 20px;
+	
+}
+
+
+
 }
